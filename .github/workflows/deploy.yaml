@@ -21,7 +21,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
-            cd /var/www/resume-rewrite           # Go to project root
+            cd /var/www/ai-resume-rewriter      # Go to project root
             git pull origin main                # Pull latest changes
 
             cd client                           # Enter frontend folder
